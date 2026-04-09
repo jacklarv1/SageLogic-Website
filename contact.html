@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Request an Executive Briefing — SageLogic AI Solutions</title>
+  <meta name="description" content="Request an Executive Briefing with SageLogic AI Solutions. We assess fit, discuss your operational context, and determine whether an engagement makes sense — before any build begins.">
+  <link rel="canonical" href="https://sagelogicaisolutions.com/contact.html">
+  <meta property="og:title" content="Contact | Request an Executive Briefing — SageLogic AI Solutions">
+  <meta property="og:description" content="Request an Executive Briefing with SageLogic AI Solutions. We assess fit, discuss your operational context, and determine whether an engagement makes sense — before any build begins.">
+  <meta property="og:image" content="https://sagelogicaisolutions.com/assets/og-image.jpg">
+  <meta property="og:url" content="https://sagelogicaisolutions.com/contact.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- GA4 — paste gtag script here -->
+</head>
+<body>
+
+  <!-- ── Navigation ─────────────────────────────────────── -->
+  <header class="nav" role="banner">
+    <div class="container">
+      <a href="index.html" class="nav__logo">
+        <div class="nav__logo-icon" role="img" aria-label="SageLogic logo icon"></div>
+        <div class="nav__logo-text">
+          <span class="nav__logo-name">SageLogic</span>
+          <span class="nav__logo-sub">AI Solutions</span>
+        </div>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="services.html#faq" class="nav__link">FAQ</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+        <li><a href="contact.html" class="btn btn--primary nav__cta">Request an Executive Briefing</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── SECTION 01 | CONTACT HERO ─────────────────────── -->
+    <section class="section section--teal" aria-labelledby="contact-hero-heading">
+      <div class="container">
+        <h1 id="contact-hero-heading">Request an Executive Briefing</h1>
+        <p style="max-width:640px; margin-top:1rem; opacity:0.9; line-height:1.7;">
+          Complete the form below. A member of the SageLogic team will review your submission and follow up within two business days to assess fit, discuss your operational context, and determine whether an engagement makes sense.
+        </p>
+        <p style="max-width:640px; margin-top:0.75rem; opacity:0.82; font-size:0.9375rem;">
+          We do not schedule demos. The initial conversation is a structured briefing — no sales pressure, no obligation.
+        </p>
+      </div>
+    </section>
+
+    <!-- ── SECTION 02 | CONTACT FORM ─────────────────────── -->
+    <section class="section" aria-labelledby="form-heading">
+      <div class="container">
+        <h2 id="form-heading" class="visually-hidden">Contact Form</h2>
+
+        <div class="form-wrapper">
+          <!--
+            HOSTING NOTE:
+            • GitHub Pages + Formspree: set action="https://formspree.io/f/YOUR_FORM_ID"
+            • Netlify: add the `netlify` attribute and set action="/confirmation.html"
+            After successful submission, redirect to confirmation.html via Formspree's
+            _next field or Netlify's redirect setting.
+          -->
+          <form
+            class="form"
+            method="POST"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            novalidate
+          >
+            <!-- Formspree redirect on success -->
+            <input type="hidden" name="_next" value="confirmation.html">
+            <!-- Honeypot anti-spam -->
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+            <div class="form__group">
+              <label class="form__label" for="full-name">
+                Full Name <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <input
+                class="form__input"
+                type="text"
+                id="full-name"
+                name="full_name"
+                placeholder="Your full name"
+                required
+                autocomplete="name"
+              >
+              <span class="form__error" role="alert"></span>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="title-role">
+                Title / Role <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <input
+                class="form__input"
+                type="text"
+                id="title-role"
+                name="title_role"
+                placeholder="e.g. Principal, Managing Partner, COO"
+                required
+                autocomplete="organization-title"
+              >
+              <span class="form__error" role="alert"></span>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="org-name">
+                Organization Name <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <input
+                class="form__input"
+                type="text"
+                id="org-name"
+                name="organization"
+                placeholder="Your organization"
+                required
+                autocomplete="organization"
+              >
+              <span class="form__error" role="alert"></span>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="industry">
+                Industry <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <div class="form__select-wrapper">
+                <select class="form__select" id="industry" name="industry" required>
+                  <option value="" disabled selected>Select your industry</option>
+                  <option value="Environmental Consulting">Environmental Consulting</option>
+                  <option value="Engineering">Engineering</option>
+                  <option value="CPA / Accounting">CPA / Accounting</option>
+                  <option value="Legal">Legal</option>
+                  <option value="Real Estate">Real Estate</option>
+                  <option value="Healthcare Administration">Healthcare Administration</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <span class="form__error" role="alert"></span>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="email">
+                Email Address <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@yourfirm.com"
+                required
+                autocomplete="email"
+              >
+              <span class="form__error" role="alert"></span>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="phone">
+                Phone Number <span style="color:var(--color-gray-mid); font-weight:400;">(optional)</span>
+              </label>
+              <input
+                class="form__input"
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="(555) 000-0000"
+                autocomplete="tel"
+              >
+              <span class="form__error" role="alert"></span>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="challenge">
+                Biggest Operational Challenge <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <textarea
+                class="form__textarea"
+                id="challenge"
+                name="challenge"
+                rows="5"
+                placeholder="Briefly describe the primary workflow or decision problem you are trying to solve."
+                required
+              ></textarea>
+              <span class="form__error" role="alert"></span>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="referral">
+                How did you hear about us? <span style="color:var(--color-gray-mid); font-weight:400;">(optional)</span>
+              </label>
+              <div class="form__select-wrapper">
+                <select class="form__select" id="referral" name="referral">
+                  <option value="" disabled selected>Select one</option>
+                  <option value="LinkedIn">LinkedIn</option>
+                  <option value="Referral">Referral</option>
+                  <option value="Web Search">Web Search</option>
+                  <option value="LSBDC">LSBDC</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form__submit">
+              <button type="submit" class="btn btn--primary">Request an Executive Briefing</button>
+            </div>
+
+          </form>
+
+          <p class="privacy-notice">
+            Information submitted through this form is handled securely and used only to evaluate and respond to your inquiry. SageLogic AI Solutions does not sell, rent, or share your information.
+            <a href="privacy-policy.html">View our Privacy Policy.</a>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <div class="footer__logo-lockup">
+            <div class="footer__logo-icon" role="img" aria-label="SageLogic logo icon"></div>
+            <div class="footer__logo-text">
+              <span class="footer__logo-name">SageLogic</span>
+              <span class="footer__logo-sub">AI Solutions</span>
+            </div>
+          </div>
+          <p class="footer__tagline">Decision infrastructure, not demos.</p>
+          <p class="footer__copy">&copy; 2026 SageLogic AI Solutions, LLC. All rights reserved.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-of-service.html">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer__col footer__contact">
+          <h4>Contact</h4>
+          <p><a href="mailto:jacklarriviere@sagelogicaisolution.com">jacklarriviere@sagelogicaisolution.com</a></p>
+          <p>Lafayette, Louisiana</p>
+          <div class="footer__social">
+            <a href="https://www.linkedin.com/company/sagelogicaisolutions" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.instagram.com/sagelogicai" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/sagelogicaisolutions" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://x.com/sagelogicai" target="_blank" rel="noopener noreferrer">X</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer__disclosure">SageLogic does not train models on confidential client data or proprietary information. AI outputs are subject to human review and do not constitute professional, legal, or financial advice.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>
