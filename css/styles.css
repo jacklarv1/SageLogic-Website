@@ -181,7 +181,7 @@ p:last-child { margin-bottom: 0; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 88px;
+  height: 120px;
   gap: 2rem;
 }
 
@@ -194,12 +194,12 @@ p:last-child { margin-bottom: 0; }
 }
 
 .nav__logo-icon {
-  width: 72px;
-  height: 72px;
-  border-radius: 14px;
+  width: 101px;
+  height: 101px;
+  border-radius: 18px;
   flex-shrink: 0;
   background-image: url('../assets/SageLogic%20logo.png');
-  background-size: 72px 72px;
+  background-size: 101px 101px;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -211,7 +211,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .nav__logo-name {
-  font-size: 1.625rem;
+  font-size: 2.275rem;
   font-weight: 700;
   color: #004E4C;
   letter-spacing: -0.025em;
@@ -219,7 +219,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .nav__logo-sub {
-  font-size: 0.75rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: #004E4C;
   letter-spacing: 0.12em;
@@ -291,7 +291,7 @@ p:last-child { margin-bottom: 0; }
   .nav__links {
     display: none;
     position: absolute;
-    top: 88px;
+    top: 120px;
     left: 0;
     right: 0;
     background: var(--color-white);
@@ -1312,12 +1312,12 @@ p:last-child { margin-bottom: 0; }
 }
 
 .footer__logo-icon {
-  width: 52px;
-  height: 52px;
-  border-radius: 10px;
+  width: 73px;
+  height: 73px;
+  border-radius: 14px;
   flex-shrink: 0;
   background-image: url('../assets/SageLogic%20logo.png');
-  background-size: 52px 52px;
+  background-size: 73px 73px;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -1329,7 +1329,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .footer__logo-name {
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: var(--color-white);
   letter-spacing: -0.02em;
@@ -1337,7 +1337,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .footer__logo-sub {
-  font-size: 0.6rem;
+  font-size: 0.84rem;
   font-weight: 600;
   color: rgba(255,255,255,0.65);
   letter-spacing: 0.12em;
