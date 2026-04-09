@@ -193,30 +193,14 @@ p:last-child { margin-bottom: 0; }
   flex-shrink: 0;
 }
 
-/* ── Logo lockup — background-image approach ─────────────────
-   Image: 274×260px PNG with transparent corners outside the
-   teal rounded rect. Using background-image on the container div
-   (not <img>) eliminates all transparent-corner visibility issues —
-   border-radius clips the background directly to the rounded shape.
-
-   background-size: 130px 123px  (130 × 260/274 = 123px)
-   background-position: -29px -3px
-     → shows image from x=29→101 (72px), y=3→75 (72px)
-   Image corner arcs at this scale: ~16px. Our view starts at x=29
-   (past the 16px arc), so all four container corners are fully
-   uniform teal — no white gaps. ✓
-   Icon (head+leaves) at y=9.8→67.6px of the 123px image lands
-   at container y=6.8→64.6px — 7px breathing room each side. ✓
-   Embedded text starts at y≈73px → outside 72px container. ✓
-──────────────────────────────────────────────────────────── */
 .nav__logo-icon {
   width: 72px;
   height: 72px;
-  border-radius: 13px;
+  border-radius: 14px;
   flex-shrink: 0;
-  background-image: url('../assets/logo-square.png');
-  background-size: 130px 123px;
-  background-position: -29px -3px;
+  background-image: url('../assets/SageLogic%20logo.png');
+  background-size: 72px 72px;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
@@ -1327,18 +1311,14 @@ p:last-child { margin-bottom: 0; }
   margin-bottom: 0.75rem;
 }
 
-/* Footer logo: same background-image approach.
-   background-size: 100px 95px. background-position: -24px -4px
-   → shows x=24→76 (52px), y=4→56 (52px). Icon at y=7.6→52.2px
-   in image lands at container y=3.6→48.2px — clean fit. ✓ */
 .footer__logo-icon {
   width: 52px;
   height: 52px;
-  border-radius: 9px;
+  border-radius: 10px;
   flex-shrink: 0;
-  background-image: url('../assets/logo-square.png');
-  background-size: 100px 95px;
-  background-position: -24px -4px;
+  background-image: url('../assets/SageLogic%20logo.png');
+  background-size: 52px 52px;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
